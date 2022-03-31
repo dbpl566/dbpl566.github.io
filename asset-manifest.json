@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/%7Bdbpl566.github.io%7D/static/css/main.c69f8f1c.css",
+    "main.js": "/%7Bdbpl566.github.io%7D/static/js/main.dc9965bb.js",
+    "static/media/logo.png": "/%7Bdbpl566.github.io%7D/static/media/logo.8bdd08824ba75598ad68.png",
+    "index.html": "/%7Bdbpl566.github.io%7D/index.html",
+    "main.c69f8f1c.css.map": "/%7Bdbpl566.github.io%7D/static/css/main.c69f8f1c.css.map",
+    "main.dc9965bb.js.map": "/%7Bdbpl566.github.io%7D/static/js/main.dc9965bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c69f8f1c.css",
+    "static/js/main.dc9965bb.js"
+  ]
+}
