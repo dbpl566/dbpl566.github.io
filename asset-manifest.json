@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/dbpl566.github.io/static/css/main.c69f8f1c.css",
-    "main.js": "/dbpl566.github.io/static/js/main.cfe801e1.js",
-    "static/media/logo.png": "/dbpl566.github.io/static/media/logo.8bdd08824ba75598ad68.png",
-    "index.html": "/dbpl566.github.io/index.html",
-    "main.c69f8f1c.css.map": "/dbpl566.github.io/static/css/main.c69f8f1c.css.map",
-    "main.cfe801e1.js.map": "/dbpl566.github.io/static/js/main.cfe801e1.js.map"
+    "main.css": "/static/css/main.c69f8f1c.css",
+    "main.js": "/static/js/main.87a8889d.js",
+    "static/media/logo.png": "/static/media/logo.8bdd08824ba75598ad68.png",
+    "index.html": "/index.html",
+    "main.c69f8f1c.css.map": "/static/css/main.c69f8f1c.css.map",
+    "main.87a8889d.js.map": "/static/js/main.87a8889d.js.map"
   },
   "entrypoints": [
     "static/css/main.c69f8f1c.css",
-    "static/js/main.cfe801e1.js"
+    "static/js/main.87a8889d.js"
   ]
 }
