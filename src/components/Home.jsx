@@ -11,7 +11,7 @@ const Home = () => {
             <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>I'm a Software Developer.</h2>
             <p className='text-[#8892b0] py-4 max-w-[700px]'>I specialize in building well-designed, user-centric applications.</p>
             <div>
-                <button className='text-white border-2 px-6 py-3 my-2 flex items-center gover:bg-pink-600 hover:border-pink-600'>
+                <button className='text-white border-2 px-6 py-3 my-2 flex items-center hover:border-pink-600'>
                   View Work
                   <span className='group-hover:rotate-90 duration-300'>
                   <HiArrowNarrowRight className='ml-3' />
