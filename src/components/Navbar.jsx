@@ -24,15 +24,15 @@ const Navbar = () => {
 
       {/*hamburger */}
       <div onClick={handleClick} className='md:hidden z-10'>
-        {!nav ? <FaBars /> : <FaTimes className='text-white'/>}
+        {!nav ? <FaBars /> : <FaTimes className='text-white' />}
       </div>
 
       {/*mobile menu*/}
-      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#030200] backdrop-filter backdrop-blur-lg bg-opacity-70 flex flex-col justify-center items-center'}>
-        <li className='py-6 text-4xl hover:text-pink-600 text-white'>Home</li>
-        <li className='py-6 text-4xl hover:text-pink-600 text-white'>About</li>
-        <li className='py-6 text-4xl hover:text-pink-600 text-white'>Projects</li>
-        <li className='py-6 text-4xl hover:text-pink-600 text-white'>Contact</li>
+      <ul className={!nav ? 'hidden' : 'flex md:hidden absolute top-0 left-0 w-full h-screen bg-[#030200] backdrop-filter backdrop-blur-lg bg-opacity-70 flex-col justify-center items-center'}>
+        <li className='flex md:hidden py-6 text-4xl hover:text-pink-600 text-white'>Home</li>
+        <li className='flex md:hidden py-6 text-4xl hover:text-pink-600 text-white'>About</li>
+        <li className='flex md:hidden py-6 text-4xl hover:text-pink-600 text-white'>Projects</li>
+        <li className='flex md:hidden py-6 text-4xl hover:text-pink-600 text-white'>Contact</li>
       </ul>
 
       {/* social icons
