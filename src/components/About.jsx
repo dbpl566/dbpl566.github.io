@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const About = () => {
   return (
@@ -11,12 +11,15 @@ const About = () => {
                     </p>
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8'>
-                  <div className='sm:text-left text-4xl font-bold'>
+                  <div className='sm:text-left pb-8 pl-4'>
                     <p>
-                      Hi, I'm Debra. Lorem ipsum dolor sit amet.
+                      Hi! I'm Debra. I'm a software engineer with a passion for web development.
+                      I love figuring out how visually stunning applications work under the hood,
+                      and aim to create equally well-designed, user-centric applications.
+                      When I'm not programming, I enjoy painting, reading and cafe hopping.
                     </p>
                   </div>
-                  <div>
+                  <div className='pb-8 pl-4'>
                     <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 

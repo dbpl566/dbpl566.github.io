@@ -7,7 +7,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#ff8ba7] text-[#030200]">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#ff8ba7] text-[#030200] backdrop-filter backdrop-blur-lg bg-opacity-60 firefox:bg-opacity-90">
       <div>
         <a href="https://dbpl566.github.io/">
           <img src={Logo} alt="Logo of the Initials DL" style={{width: '50px'}} />
@@ -35,7 +35,7 @@ const Navbar = () => {
         <li className='py-6 text-4xl'>Contact</li>
       </ul>
 
-      {/*social icons*/}
+      {/* social icons
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
           <li className='w-{160px} h-{60px} flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500'>
@@ -44,17 +44,17 @@ const Navbar = () => {
             </a>
           </li>
           <li className='w-{160px} h-{60px} flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-            <a className='flex justify-between items-center w-full text-gray-300' href="/">
+            <a className='flex justify-between items-center w-full text-gray-300' href="https://github.com/dbpl566">
               Github <FaGithub size={30}/>
             </a>
           </li>
           <li className='w-{160px} h-{60px} flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-            <a className='flex justify-between items-center w-full text-gray-300' href="/">
+            <a className='flex justify-between items-center w-full text-gray-300' href="mailto:debra.p.lymon@gmail.com">
               Email <HiOutlineMail size={30}/>
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 }
