@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
+import {FaBars, FaTimes} from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import Logo from '../assets/logo.png';
 import Home from './Home';
