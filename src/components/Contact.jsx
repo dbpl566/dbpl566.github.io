@@ -4,10 +4,10 @@ import { HiOutlineMail } from 'react-icons/hi';
 
 const Contact = () => {
   return (
-    <div name='Contact' className='w-full h-screen bg-[#030200]'>
+    <div name='Contact' className='w-full h-screen bg-[#030200] py-16'>
       <div className='max-w-[1000px] mx-auto pl-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-2 pl-4'>
-          <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600 pt-16'>
+          <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
             Contact
           </p>
           <p className='py-6 text-gray-300'>
