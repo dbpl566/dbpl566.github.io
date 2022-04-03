@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div name='About' className='w-full h-screen bg-[#030200] text-gray-300 pt-40 pb-40'>
+    <div name='About' className='w-full h-screen bg-[#030200] text-gray-300'>
         <div className='flex flex-col justify-center items-center w-full h-full'>
             <div className='max-w-[1000px] w-full px-4 grid-cols-2 gap-8'>
                 <div className='sm:text-left pb-8 pl-4'>
@@ -10,8 +10,8 @@ const About = () => {
                       About
                     </p>
                 </div>
-                <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8'>
-                  <div className='sm:text-left pb-8 pl-4'>
+                <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
+                  <div className='sm:text-left pb-8'>
                     <p>
                       Hi! I'm Debra. I'm a software engineer with a passion for web development.
                       I love figuring out how visually stunning applications work under the hood,
@@ -19,7 +19,7 @@ const About = () => {
                       When I'm not programming, I enjoy painting, reading and cafe hopping.
                     </p>
                   </div>
-                  <div className='pb-8 pl-4'>
+                  <div>
                     <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
