@@ -2,8 +2,7 @@ import React from 'react';
 import {HiArrowNarrowRight} from 'react-icons/hi';
 import {Link, animateScroll as scroll} from 'react-scroll';
 import Projects from "./Projects";
-import {FaGithub, FaLinkedin} from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
+
 
 const Home = () => {
   return (
@@ -22,13 +21,6 @@ const Home = () => {
                   </span>
                   </button>
             </Link>
-            <div name='Socials'>
-              <div className='mt-3 flex items-center justify-center space-x-6 text-gray-300 text-4xl pt-20'>
-                <a className='hover:bg-pink-600' href=""><FaLinkedin /></a>
-                <a className='hover:bg-pink-600' href="https://github.com/dbpl566"><FaGithub /></a>
-                <a className='hover:bg-pink-600' href="mailto:debra.p.lymon@gmail.com"><HiOutlineMail /></a>
-              </div>
-            </div>
         </div>
     </div>
   )
