@@ -6,7 +6,7 @@ import Projects from "./Projects";
 
 const Home = () => {
   return (
-    <div name='Home' className='w-full h-screen bg-[#030200] py-16'>
+    <div name='Home' className='w-full h-screen bg-[#030200] sm:py-16'>
         {/* Container */}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
             <p className='text-pink-600'>Hi, my name is</p>
