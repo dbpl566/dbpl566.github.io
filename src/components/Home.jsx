@@ -7,7 +7,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 
 const Home = () => {
   return (
-    <div name='Home' className='w-full h-screen bg-[#030200] py-8'>
+    <div name='Home' className='w-full h-screen bg-[#030200] pt-16'>
         {/* Container */}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
             <p className='text-pink-600'>Hi, my name is</p>

@@ -13,10 +13,10 @@ const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#ff8ba7] text-[#030200]">
+    <div className="fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#ff8ba7] text-[#030200]">
       <div>
         <a href="https://dbpl566.github.io/">
-          <img src={Logo} alt="Logo of the Initials DL" style={{width: '50px'}} />
+          <img src={Logo} alt="Logo of the Initials DL" style={{width: '40px'}} />
         </a>
       </div>
 
