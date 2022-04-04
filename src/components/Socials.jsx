@@ -4,7 +4,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 
 const Socials = () => {
   return (
-    <div name='Socials' className='sticky w-full h-[150px] bg-[#030200] pt-4'>
+    <div name='Socials' className='w-full h-[150px] bg-[#030200] pt-4'>
       <div className='mt-3 flex justify-center items-center space-x-6 text-gray-300 text-4xl pb-4'>
         <a className='hover:bg-pink-600' href=""><FaLinkedin /></a>
         <a className='hover:bg-pink-600' href="https://github.com/dbpl566"><FaGithub /></a>
