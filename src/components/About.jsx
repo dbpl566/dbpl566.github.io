@@ -1,5 +1,4 @@
 import React from 'react';
-import Headshot from "../assets/headshot.png";
 
 const About = () => {
   return (
@@ -7,7 +6,6 @@ const About = () => {
         <div className='flex flex-col justify-center items-center w-full h-full'>
             <div className='max-w-[1000px] w-full px-4 gap-8'>
 
-            {/* sm:grid-cols-1 md:grid-cols-2 */}
                 <div className='max-w-[1000px] w-full grid gap-8 px-4'>
                   <div className='text-left text-gray-300 my-auto'>
                   <div className='sm:text-left pb-8'>
@@ -22,9 +20,6 @@ const About = () => {
                       When I'm not programming, I enjoy painting, reading and cafe hopping.
                     </p>
                   </div>
-                  {/* <div className='mx-auto'>
-                    <img src={Headshot} alt="Picture of Debra Lymon" style={{width: '300px'}} />
-                  </div> */}
                 </div>
               </div>
           </div> 
