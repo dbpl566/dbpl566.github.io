@@ -1,4 +1,5 @@
 import React from 'react';
+import Headshot from "../assets/headshot.png";
 
 const About = () => {
   return (
@@ -10,8 +11,8 @@ const About = () => {
                       About
                     </p>
                 </div>
-                <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                  <div className='sm:text-left pb-8 text-gray-300'>
+                <div className='max-w-[1000px] w-full grid grid-flow-col gap-8 px-4'>
+                  <div className='sm:text-left text-gray-300'>
                     <p>
                       Hi! I'm Debra. I'm a software engineer with a passion for web development.
                       I love figuring out how visually stunning applications work under the hood,
@@ -19,13 +20,8 @@ const About = () => {
                       When I'm not programming, I enjoy painting, reading and cafe hopping.
                     </p>
                   </div>
-                  <div className='text-gray-300'>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    </p>
+                  <div>
+                    <img src={Headshot} alt="Picture of Debra Lymon" style={{width: '300px'}} />
                   </div>
                 </div>
               </div>
