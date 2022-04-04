@@ -5,9 +5,9 @@ import Project3 from '../assets/Project3.jpg';
 
 const Projects = () => {
   return (
-    <div name='Projects' className='w-full h-screen bg-[#030200] text-gray-300'>
+    <div name='Projects' className='w-full md:h-screen bg-[#030200] text-gray-300 pt-16'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-            <div className='pb-8 pl-4'>
+            <div className='pl-4'>
                 <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
                     Projects
                 </p>
