@@ -11,7 +11,7 @@ const About = () => {
                       About
                     </p>
                 </div>
-                <div className='max-w-[1000px] w-full grid grid-flow-col gap-8 px-4'>
+                <div className='max-w-[1000px] w-full grid sm:grid-cols-1 md:grid-cols-2 gap-8 px-4'>
                   <div className='sm:text-left text-gray-300'>
                     <p>
                       Hi! I'm Debra. I'm a software engineer with a passion for web development.
@@ -21,7 +21,7 @@ const About = () => {
                     </p>
                   </div>
                   <div>
-                    <img src={Headshot} alt="Picture of Debra Lymon" style={{width: '300px'}} />
+                    <img className='mx-auto my-auto' src={Headshot} alt="Picture of Debra Lymon" style={{width: '300px'}} />
                   </div>
                 </div>
               </div>
