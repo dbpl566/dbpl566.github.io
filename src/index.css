@@ -14,13 +14,6 @@
     }
 }
 
-/* {Remove overflow behind URL bar for Safari iOS} */
-@supports (-webkit-touch-callout: none) {
-    .h-screen {
-      height: -webkit-fill-available;
-    }
-  }
-
 .content-div{
     background-repeat: no-repeat;
     background-size: cover;
