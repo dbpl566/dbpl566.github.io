@@ -2,6 +2,8 @@ import React from 'react';
 import Project1 from '../assets/Project1.jpg';
 import Project2 from '../assets/Project2.jpg';
 import Project3 from '../assets/Project3.jpg';
+import {FaGithub} from 'react-icons/fa';
+import {FiExternalLink} from 'react-icons/fi';
 
 const Projects = () => {
   return (
@@ -12,165 +14,210 @@ const Projects = () => {
                     Projects
                 </p>
                 <p className='py-6'>
-                    Here's some of my recent work
+                    Here's some of my recent work:
                 </p>
             </div>
             
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
                 
                 {/* First Project */}
-                <div 
-                style={{backgroundImage: `url(${Project1})`}}
-                className='group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    <div className='opacity-0 group-hover:opacity-100'>
-                            
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            Java K-12 Educational Game
-                        </span>
-                            
-                        <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 n-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Demo
-                                </button>
-                            </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 n-2 bg-white text-gray-700 font-bold text-lg'>
-                                    View on GitHub
-                                </button>
-                            </a>
+                <div className='group container rounded-md bg-[#0a192f] text-gray-300'>
+                    <div className='flex flex-col'>
+                        <div className='w-11/12 m-auto'>
+                            <h5 className='text-xl pt-3 font-bold'>
+                                Estuary Escapades
+                            </h5>
+                            <h2 name='Project Title'>
+                                K-12 Educational Game
+                            </h2>
                         </div>
-                        
+                    </div>
+                    <div name='project image'>
+                        <img src={Project1} className='w-full'/>
+                    </div>
+                    <div className='w-full'>
+                        <div className='flex justify-between flex-col sm:flex-row w-11/12 m-auto my-4'>
+                            <div className='flex items-center mb-3 sm:mb-0 font-bold text-xl'>
+                                <p className='mr-3'>Java</p>
+                            </div>
+                            <div className='flex space-x-6 text-3xl'>
+                                <a href="/" className='hover:text-[#ff8ba7]'>
+                                    <FaGithub />
+                                </a>
+                                <a href="/" className='hover:text-[#ff8ba7]'>
+                                    <FiExternalLink />
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                
+
                 {/* Second Project */}
-                <div 
-                style={{backgroundImage: `url(${Project2})`}}
-                className='group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    <div className='opacity-0 group-hover:opacity-100'>
-                            
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            Vertical Scrolling Game
-                        </span>
-                            
-                        <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 n-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Demo
-                                </button>
-                            </a>
-                            <a href="https://github.com/dbpl566/474-Project-1">
-                                <button className='text-center rounded-lg px-4 py-3 n-2 bg-white text-gray-700 font-bold text-lg'>
-                                    View on GitHub
-                                </button>
-                            </a>
+                <div className='group container rounded-md bg-[#0a192f]'>
+                    <div className='flex flex-col'>
+                        <div className='w-11/12 m-auto'>
+                            <h5 className='text-xl pt-3 font-bold'>
+                                Fee Fi Fo Fall
+                            </h5>
+                            <h2 name='Project Title'>
+                                Vertical Scrolling Game
+                            </h2>
                         </div>
-                        
+                    </div>
+                    <div name='project image'>
+                        <img src={Project2} className='w-full'/>
+                    </div>
+                    <div className='w-full'>
+                        <div className='flex justify-between flex-col sm:flex-row w-11/12 m-auto my-4'>
+                            <div className='flex items-center mb-3 sm:mb-0 font-bold text-xl'>
+                                <p className='mr-3'>JS</p>
+                                <p className='mr-3'>CSS</p>
+                                <p className='mr-3'>HTML</p>
+                            </div>
+                            <div className='flex space-x-6 text-3xl'>
+                                <a href="https://github.com/dbpl566/474-Project-1" className='hover:text-[#ff8ba7]'>
+                                    <FaGithub />
+                                </a>
+                                <a href="/" className='hover:text-[#ff8ba7]'>
+                                    <FiExternalLink />
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+        
 
                 {/* Third Project */}
-                <div 
-                style={{backgroundImage: `url(${Project3})`}}
-                className='group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    <div className='opacity-0 group-hover:opacity-100'>
-                            
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            Virtual Avatars
-                        </span>
-                            
-                        <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 n-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Demo
-                                </button>
-                            </a>
-                            <a href="https://github.com/HCI-UD/finalproject-3virtualavatar">
-                                <button className='text-center rounded-lg px-4 py-3 n-2 bg-white text-gray-700 font-bold text-lg'>
-                                    View on GitHub
-                                </button>
-                            </a>
+                <div className='group container rounded-md bg-[#0a192f]'>
+                    <div className='flex flex-col'>
+                        <div className='w-11/12 m-auto'>
+                            <h5 className='text-xl pt-3 font-bold'>
+                                Virtual Avatars
+                            </h5>
+                            <h2 name='Project Title'>
+                                VR Experience
+                            </h2>
                         </div>
-                        
+                    </div>
+                    <div name='project image'>
+                        <img src={Project3} className='w-full'/>
+                    </div>
+                    <div className='w-full'>
+                        <div className='flex justify-between flex-col sm:flex-row w-11/12 m-auto my-4'>
+                            <div className='flex items-center mb-3 sm:mb-0 font-bold text-xl'>
+                                <p className='mr-3'>C#</p>
+                                <p className='mr-3'>Unity</p>
+                            </div>
+                            <div className='flex space-x-6 text-3xl'>
+                                <a href="https://github.com/HCI-UD/finalproject-3virtualavatar" className='hover:text-[#ff8ba7]'>
+                                    <FaGithub />
+                                </a>
+                                <a href="/" className='hover:text-[#ff8ba7]'>
+                                    <FiExternalLink />
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                {/* Fourth Project */}
-                <div 
-                style={{backgroundImage: `url(${Project1})`}}
-                className='group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    <div className='opacity-0 group-hover:opacity-100'>
-                            
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            Java K-12 Educational Game
-                        </span>
-                            
-                        <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 n-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Demo
-                                </button>
-                            </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 n-2 bg-white text-gray-700 font-bold text-lg'>
-                                    View on GitHub
-                                </button>
-                            </a>
-                        </div>
-                        
-                    </div>
-                </div>
                 
-                {/* Fifth Project */}
-                <div 
-                style={{backgroundImage: `url(${Project2})`}}
-                className='group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    <div className='opacity-0 group-hover:opacity-100'>
-                            
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            Vertical Scrolling Game
-                        </span>
-                            
-                        <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 n-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Demo
-                                </button>
-                            </a>
-                            <a href="https://github.com/dbpl566/474-Project-1">
-                                <button className='text-center rounded-lg px-4 py-3 n-2 bg-white text-gray-700 font-bold text-lg'>
-                                    View on GitHub
-                                </button>
-                            </a>
+                {/* Fourth Project */}
+                <div className='group container rounded-md bg-[#0a192f] text-gray-300'>
+                    <div className='flex flex-col'>
+                        <div className='w-11/12 m-auto'>
+                            <h5 className='text-xl pt-3 font-bold'>
+                                Estuary Escapades
+                            </h5>
+                            <h2 name='Project Title'>
+                                K-12 Educational Game
+                            </h2>
                         </div>
-                        
+                    </div>
+                    <div name='project image'>
+                        <img src={Project1} className='w-full'/>
+                    </div>
+                    <div className='w-full'>
+                        <div className='flex justify-between flex-col sm:flex-row w-11/12 m-auto my-4'>
+                            <div className='flex items-center mb-3 sm:mb-0 font-bold text-xl'>
+                                <p className='mr-3'>Java</p>
+                            </div>
+                            <div className='flex space-x-6 text-3xl'>
+                                <a href="/" className='hover:text-[#ff8ba7]'>
+                                    <FaGithub />
+                                </a>
+                                <a href="/" className='hover:text-[#ff8ba7]'>
+                                    <FiExternalLink />
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+                {/* Fifth Project */}
+                <div className='group container rounded-md bg-[#0a192f]'>
+                    <div className='flex flex-col'>
+                        <div className='w-11/12 m-auto'>
+                            <h5 className='text-xl pt-3 font-bold'>
+                                Fee Fi Fo Fall
+                            </h5>
+                            <h2 name='Project Title'>
+                                Vertical Scrolling Game
+                            </h2>
+                        </div>
+                    </div>
+                    <div name='project image'>
+                        <img src={Project2} className='w-full'/>
+                    </div>
+                    <div className='w-full'>
+                        <div className='flex justify-between flex-col sm:flex-row w-11/12 m-auto my-4'>
+                            <div className='flex items-center mb-3 sm:mb-0 font-bold text-xl'>
+                                <p className='mr-3'>JS</p>
+                                <p className='mr-3'>CSS</p>
+                                <p className='mr-3'>HTML</p>
+                            </div>
+                            <div className='flex space-x-6 text-3xl'>
+                                <a href="https://github.com/dbpl566/474-Project-1" className='hover:text-[#ff8ba7]'>
+                                    <FaGithub />
+                                </a>
+                                <a href="/" className='hover:text-[#ff8ba7]'>
+                                    <FiExternalLink />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
 
                 {/* Sixth Project */}
-                <div 
-                style={{backgroundImage: `url(${Project3})`}}
-                className='group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    <div className='opacity-0 group-hover:opacity-100'>
-                            
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            Virtual Avatars
-                        </span>
-                            
-                        <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 n-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Demo
-                                </button>
-                            </a>
-                            <a href="https://github.com/HCI-UD/finalproject-3virtualavatar">
-                                <button className='text-center rounded-lg px-4 py-3 n-2 bg-white text-gray-700 font-bold text-lg'>
-                                    View on GitHub
-                                </button>
-                            </a>
+                <div className='group container rounded-md bg-[#0a192f]'>
+                    <div className='flex flex-col'>
+                        <div className='w-11/12 m-auto'>
+                            <h5 className='text-xl pt-3 font-bold'>
+                                Virtual Avatars
+                            </h5>
+                            <h2 name='Project Title'>
+                                VR Experience
+                            </h2>
                         </div>
-                        
+                    </div>
+                    <div name='project image'>
+                        <img src={Project3} className='w-full'/>
+                    </div>
+                    <div className='w-full'>
+                        <div className='flex justify-between flex-col sm:flex-row w-11/12 m-auto my-4'>
+                            <div className='flex items-center mb-3 sm:mb-0 font-bold text-xl'>
+                                <p className='mr-3'>C#</p>
+                                <p className='mr-3'>Unity</p>
+                            </div>
+                            <div className='flex space-x-6 text-3xl'>
+                                <a href="https://github.com/HCI-UD/finalproject-3virtualavatar" className='hover:text-[#ff8ba7]'>
+                                    <FaGithub />
+                                </a>
+                                <a href="/" className='hover:text-[#ff8ba7]'>
+                                    <FiExternalLink />
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
