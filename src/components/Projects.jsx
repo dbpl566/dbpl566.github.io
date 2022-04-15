@@ -59,9 +59,9 @@ const Projects = () => {
                         <div id='overlay-1'>
                             <div className={!info ? 'hidden' : 'fixed inset-0 z-10 overflow auto none flex top-0 left-0 w-full h-screen bg-[#030200] backdrop-filter backdrop-blur-lg bg-opacity-70 flex-col justify-center items-center'}>
                                 <div onClick={handleClick} className='hidden-lg z-10'>
-                                    {!info ? 'hidden' : <FaTimes className='absolute text-white text-4xl top-4 right-4 hover:text-pink-600' />}
+                                    {!info ? 'hidden' : <FaTimes className='absolute text-white text-2xl top-4 right-4 hover:text-pink-600' />}
                                 </div>
-                                <div id="overlay-container-1" className='w-full sm:w-3/6 flex flex-col items-center mb-5 pt-12 mx-auto overflow-scroll'>
+                                <div id="overlay-container-1" className='w-full sm:w-3/6 flex flex-col items-center mb-5 pt-12 mx-auto overflow-y-contain'>
                                     <h3 className='text-white text-4xl font-bold m-3 w-11/12 sm:w-full'>
                                         Estuary Escapades
                                     </h3>
@@ -69,9 +69,9 @@ const Projects = () => {
                                         <img src={Project1} className='w-full' alt='Game start screen with artwork of an estuary and its wildlife'/>
                                     </div>
                                     <div className='w-11/12 sm:w-full mt-3 text-white flex flex-col'>
-                                        <h6 className='text-2xl text-white'>
-                                            K-12 Educational Game for the DNERRC
-                                        </h6>
+                                        <h4 className='text-2xl text-white'>
+                                            K-12 Educational Game
+                                        </h4>
                                         <p className='overflow-auto max-h-28'>
                                         Three minigames, each about a minute long, with a cumulative scoring system: 
                                         Game 1: matching an animal in the estuary to its description. 
@@ -134,9 +134,9 @@ const Projects = () => {
                         <div id='overlay-2'>
                             <div className={!info2 ? 'hidden' : 'fixed inset-0 z-10 overflow auto none flex top-0 left-0 w-full h-screen bg-[#030200] backdrop-filter backdrop-blur-lg bg-opacity-70 flex-col justify-center items-center'}>
                                 <div onClick={handleClick2} className='hidden-lg z-10'>
-                                    {!info2 ? 'hidden' : <FaTimes className='absolute text-white text-4xl top-4 right-4 hover:text-pink-600' />}
+                                    {!info2 ? 'hidden' : <FaTimes className='absolute text-white text-2xl top-4 right-4 hover:text-pink-600' />}
                                 </div>
-                                <div id="overlay-container-2" className='w-full sm:w-3/6 flex flex-col items-center mb-5 pt-12 mx-auto overflow-scroll'>
+                                <div id="overlay-container-2" className='w-full sm:w-3/6 flex flex-col items-center mb-5 pt-12 mx-auto overflow-y-contain'>
                                     <h3 className='text-white text-4xl font-bold m-3 w-11/12 sm:w-full'>
                                         Fee Fi Fo Fall
                                     </h3>
@@ -213,7 +213,7 @@ const Projects = () => {
                         <div id='overlay-1'>
                             <div className={!info3 ? 'hidden' : 'fixed inset-0 z-10 overflow auto none flex top-0 left-0 w-full h-screen bg-[#030200] backdrop-filter backdrop-blur-lg bg-opacity-70 flex-col justify-center items-center'}>
                                 <div onClick={handleClick3} className='hidden-lg z-10'>
-                                    {!info3 ? 'hidden' : <FaTimes className='absolute text-white text-4xl top-4 right-4 hover:text-pink-600' />}
+                                    {!info3 ? 'hidden' : <FaTimes className='absolute text-white text-2xl top-4 right-4 hover:text-pink-600' />}
                                 </div>
                                 <div id="overlay-container-1" className='w-full sm:w-3/6 flex flex-col items-center mb-5 pt-12 mx-auto'>
                                     <h3 className='text-white text-4xl font-bold m-3 w-11/12 sm:w-full'>
@@ -291,7 +291,7 @@ const Projects = () => {
                         <div id='overlay-1'>
                             <div className={!info4 ? 'hidden' : 'fixed inset-0 z-10 overflow auto none flex top-0 left-0 w-full h-screen bg-[#030200] backdrop-filter backdrop-blur-lg bg-opacity-70 flex-col justify-center items-center'}>
                                 <div onClick={handleClick4} className='hidden-lg z-10'>
-                                    {!info4 ? 'hidden' : <FaTimes className='absolute text-white text-4xl top-4 right-4 hover:text-pink-600' />}
+                                    {!info4 ? 'hidden' : <FaTimes className='absolute text-white text-2xl top-4 right-4 hover:text-pink-600' />}
                                 </div>
                                 <div id="overlay-container-1" className='w-full sm:w-3/6 flex flex-col items-center mb-5 pt-12 mx-auto'>
                                     <h3 className='text-white text-4xl font-bold m-3 w-11/12 sm:w-full'>
@@ -366,7 +366,7 @@ const Projects = () => {
                         <div id='overlay-2'>
                             <div className={!info5 ? 'hidden' : 'fixed inset-0 z-10 overflow auto none flex top-0 left-0 w-full h-screen bg-[#030200] backdrop-filter backdrop-blur-lg bg-opacity-70 flex-col justify-center items-center'}>
                                 <div onClick={handleClick5} className='hidden-lg z-10'>
-                                    {!info5 ? 'hidden' : <FaTimes className='absolute text-white text-4xl top-4 right-4 hover:text-pink-600' />}
+                                    {!info5 ? 'hidden' : <FaTimes className='absolute text-white text-2xl top-4 right-4 hover:text-pink-600' />}
                                 </div>
                                 <div id="overlay-container-2" className='w-full sm:w-3/6 flex flex-col items-center mb-5 pt-12 mx-auto'>
                                     <h3 className='text-white text-4xl font-bold m-3 w-11/12 sm:w-full'>
@@ -445,7 +445,7 @@ const Projects = () => {
                         <div>
                             <div className={!info6 ? 'hidden' : 'fixed inset-0 z-10 overflow auto none flex top-0 left-0 w-full h-screen bg-[#030200] backdrop-filter backdrop-blur-lg bg-opacity-70 flex-col justify-center items-center'}>
                                 <div onClick={handleClick6} className='hidden-lg z-10'>
-                                    {!info6 ? 'hidden' : <FaTimes className='absolute text-white text-4xl top-4 right-4 hover:text-pink-600' />}
+                                    {!info6 ? 'hidden' : <FaTimes className='absolute text-white text-2xl top-4 right-4 hover:text-pink-600' />}
                                 </div>
                                 <div id="overlay-container-1" className='w-full sm:w-3/6 flex flex-col items-center mb-5 pt-12 mx-auto'>
                                     <h3 className='text-white text-4xl font-bold m-3 w-11/12 sm:w-full'>
