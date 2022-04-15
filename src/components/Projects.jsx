@@ -59,7 +59,7 @@ const Projects = () => {
                         <div id='overlay-1'>
                             <div className={!info ? 'hidden' : 'fixed inset-0 z-10 overflow auto none flex top-0 left-0 w-full h-screen bg-[#030200] backdrop-filter backdrop-blur-lg bg-opacity-70 flex-col justify-center items-center'}>
                                 <div onClick={handleClick} className='hidden-lg z-10'>
-                                    {!info ? 'hidden' : <FaTimes className='absolute text-white text-4xl top-10 right-10 hover:text-pink-600' />}
+                                    {!info ? 'hidden' : <FaTimes className='absolute text-white text-4xl top-4 right-4 hover:text-pink-600' />}
                                 </div>
                                 <div id="overlay-container-1" className='w-full sm:w-3/6 flex flex-col items-center mb-5 pt-12 mx-auto'>
                                     <h3 className='text-white text-4xl font-bold m-3 w-11/12 sm:w-full'>
@@ -72,7 +72,7 @@ const Projects = () => {
                                         <h6 className='text-2xl text-white'>
                                             K-12 Educational Game for the DNERRC
                                         </h6>
-                                        <p className='overflow-auto max-h-36'>
+                                        <p className='overflow-auto max-h-28'>
                                         Three minigames, each about a minute long, with a cumulative scoring system: 
                                         Game 1: matching an animal in the estuary to its description. 
                                         Game 2: playing as an animal from game 1, dodge predators and other animals while searching for food. 
@@ -80,14 +80,14 @@ const Projects = () => {
                                         </p>
                                         <div className='flex'>
                                             <a className='w-3/6 sm:w-1/4 p-2 mt-4 flex items-center justify-center bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='https://github.com/CISC275-Fall2019/cisc275f19-project-cisc275f19-team-11-4'>
-                                                <FaGithub />
-                                                <span className='ml-3'>
+                                                <FaGithub className='text-xl'/>
+                                                <span className='ml-3 text-xl'>
                                                     CODE
                                                 </span>
                                             </a>
                                             <a className='w-3/6 sm:w-1/4 p-2 mt-4 flex items-center justify-center bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='https://www.youtube.com/watch?v=HeKU4qmBCKc'>
-                                                <FaYoutube />
-                                                <span className='ml-3'>
+                                                <FaYoutube className='text-xl'/>
+                                                <span className='ml-3 text-xl'>
                                                     DEMO
                                                 </span>
                                             </a>
@@ -134,7 +134,7 @@ const Projects = () => {
                         <div id='overlay-2'>
                             <div className={!info2 ? 'hidden' : 'fixed inset-0 z-10 overflow auto none flex top-0 left-0 w-full h-screen bg-[#030200] backdrop-filter backdrop-blur-lg bg-opacity-70 flex-col justify-center items-center'}>
                                 <div onClick={handleClick2} className='hidden-lg z-10'>
-                                    {!info2 ? 'hidden' : <FaTimes className='absolute text-white text-4xl top-10 right-10 hover:text-pink-600' />}
+                                    {!info2 ? 'hidden' : <FaTimes className='absolute text-white text-4xl top-4 right-4 hover:text-pink-600' />}
                                 </div>
                                 <div id="overlay-container-2" className='w-full sm:w-3/6 flex flex-col items-center mb-5 pt-12 mx-auto'>
                                     <h3 className='text-white text-4xl font-bold m-3 w-11/12 sm:w-full'>
@@ -147,7 +147,7 @@ const Projects = () => {
                                         <h6 className='text-2xl text-white'>
                                             Vertical Scrolling Game
                                         </h6>
-                                        <p className='overflow-auto max-h-36'>
+                                        <p className='overflow-auto max-h-28'>
                                         This game is a vertical endless falling game. Players can use keys to move left or right. 
                                         Randomly generated bricks or obstacles will appear at the bottom along. 
                                         Try to avoid the obstacle and get land on the safe brick and survive as long as you can. 
@@ -155,14 +155,14 @@ const Projects = () => {
                                         </p>
                                         <div className='flex'>
                                             <a className='w-3/6 sm:w-1/4 p-2 mt-4 flex items-center justify-center bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='https://github.com/dbpl566/474-Project-1'>
-                                                <FaGithub />
-                                                <span className='ml-3'>
+                                                <FaGithub className='text-xl'/>
+                                                <span className='ml-3 text-xl'>
                                                     CODE
                                                 </span>
                                             </a>
                                             <a className='w-3/6 sm:w-1/4 p-2 mt-4 flex items-center justify-center bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='/'>
-                                                <FaYoutube />
-                                                <span className='ml-3'>
+                                                <FaYoutube className='text-xl'/>
+                                                <span className='ml-3 text-xl'>
                                                     DEMO
                                                 </span>
                                             </a>
@@ -213,7 +213,7 @@ const Projects = () => {
                         <div id='overlay-1'>
                             <div className={!info3 ? 'hidden' : 'fixed inset-0 z-10 overflow auto none flex top-0 left-0 w-full h-screen bg-[#030200] backdrop-filter backdrop-blur-lg bg-opacity-70 flex-col justify-center items-center'}>
                                 <div onClick={handleClick3} className='hidden-lg z-10'>
-                                    {!info3 ? 'hidden' : <FaTimes className='absolute text-white text-4xl top-10 right-10 hover:text-pink-600' />}
+                                    {!info3 ? 'hidden' : <FaTimes className='absolute text-white text-4xl top-4 right-4 hover:text-pink-600' />}
                                 </div>
                                 <div id="overlay-container-1" className='w-full sm:w-3/6 flex flex-col items-center mb-5 pt-12 mx-auto'>
                                     <h3 className='text-white text-4xl font-bold m-3 w-11/12 sm:w-full'>
@@ -226,7 +226,7 @@ const Projects = () => {
                                         <h6 className='text-2xl text-white'>
                                             VR Experience
                                         </h6>
-                                        <p className='overflow-auto max-h-36'>
+                                        <p className='overflow-auto max-h-28'>
                                         As we re-acclimate to social interactions following the pandemic and other issues of racial injustices, 
                                         we must be aware of how our actions may affect those around us. We must do this because there is a growing deficiency 
                                         in understanding the perspectives of people of different races/ethnicities.  
@@ -234,14 +234,14 @@ const Projects = () => {
                                         </p>
                                         <div className='flex'>
                                             <a className='w-3/6 sm:w-1/4 p-2 mt-4 flex items-center justify-center bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='https://github.com/HCI-UD/finalproject-3virtualavatar'>
-                                                <FaGithub />
-                                                <span className='ml-3'>
+                                                <FaGithub className='text-xl'/>
+                                                <span className='ml-3 text-xl'>
                                                     CODE
                                                 </span>
                                             </a>
                                             <a className='w-3/6 sm:w-1/4 p-2 mt-4 flex items-center justify-center bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='/'>
-                                                <FaYoutube />
-                                                <span className='ml-3'>
+                                                <FaYoutube className='text-xl'/>
+                                                <span className='ml-3 text-xl'>
                                                     DEMO
                                                 </span>
                                             </a>
@@ -291,7 +291,7 @@ const Projects = () => {
                         <div id='overlay-1'>
                             <div className={!info4 ? 'hidden' : 'fixed inset-0 z-10 overflow auto none flex top-0 left-0 w-full h-screen bg-[#030200] backdrop-filter backdrop-blur-lg bg-opacity-70 flex-col justify-center items-center'}>
                                 <div onClick={handleClick4} className='hidden-lg z-10'>
-                                    {!info4 ? 'hidden' : <FaTimes className='absolute text-white text-4xl top-10 right-10 hover:text-pink-600' />}
+                                    {!info4 ? 'hidden' : <FaTimes className='absolute text-white text-4xl top-4 right-4 hover:text-pink-600' />}
                                 </div>
                                 <div id="overlay-container-1" className='w-full sm:w-3/6 flex flex-col items-center mb-5 pt-12 mx-auto'>
                                     <h3 className='text-white text-4xl font-bold m-3 w-11/12 sm:w-full'>
@@ -304,7 +304,7 @@ const Projects = () => {
                                         <h6 className='text-2xl text-white'>
                                             K-12 Educational Game for the DNERRC
                                         </h6>
-                                        <p className='overflow-auto max-h-36'>
+                                        <p className='overflow-auto max-h-28'>
                                         Three minigames, each about a minute long, with a cumulative scoring system: 
                                         Game 1: matching an animal in the estuary to its description. 
                                         Game 2: playing as an animal from game 1, dodge predators and other animals while searching for food. 
@@ -312,14 +312,14 @@ const Projects = () => {
                                         </p>
                                         <div className='flex'>
                                             <a className='w-3/6 sm:w-1/4 p-2 mt-4 flex items-center justify-center bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='https://github.com/CISC275-Fall2019/cisc275f19-project-cisc275f19-team-11-4'>
-                                                <FaGithub />
-                                                <span className='ml-3'>
+                                                <FaGithub className='text-xl'/>
+                                                <span className='ml-3 text-xl'>
                                                     CODE
                                                 </span>
                                             </a>
                                             <a className='w-3/6 sm:w-1/4 p-2 mt-4 flex items-center justify-center bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='https://www.youtube.com/watch?v=HeKU4qmBCKc'>
-                                                <FaYoutube />
-                                                <span className='ml-3'>
+                                                <FaYoutube className='text-xl'/>
+                                                <span className='ml-3 text-xl'>
                                                     DEMO
                                                 </span>
                                             </a>
@@ -366,7 +366,7 @@ const Projects = () => {
                         <div id='overlay-2'>
                             <div className={!info5 ? 'hidden' : 'fixed inset-0 z-10 overflow auto none flex top-0 left-0 w-full h-screen bg-[#030200] backdrop-filter backdrop-blur-lg bg-opacity-70 flex-col justify-center items-center'}>
                                 <div onClick={handleClick5} className='hidden-lg z-10'>
-                                    {!info5 ? 'hidden' : <FaTimes className='absolute text-white text-4xl top-10 right-10 hover:text-pink-600' />}
+                                    {!info5 ? 'hidden' : <FaTimes className='absolute text-white text-4xl top-4 right-4 hover:text-pink-600' />}
                                 </div>
                                 <div id="overlay-container-2" className='w-full sm:w-3/6 flex flex-col items-center mb-5 pt-12 mx-auto'>
                                     <h3 className='text-white text-4xl font-bold m-3 w-11/12 sm:w-full'>
@@ -379,7 +379,7 @@ const Projects = () => {
                                         <h6 className='text-2xl text-white'>
                                             Vertical Scrolling Game
                                         </h6>
-                                        <p className='overflow-auto max-h-36'>
+                                        <p className='overflow-auto max-h-28'>
                                         This game is a vertical endless falling game. Players can use keys to move left or right. 
                                         Randomly generated bricks or obstacles will appear at the bottom along. 
                                         Try to avoid the obstacle and get land on the safe brick and survive as long as you can. 
@@ -387,14 +387,14 @@ const Projects = () => {
                                         </p>
                                         <div className='flex'>
                                             <a className='w-3/6 sm:w-1/4 p-2 mt-4 flex items-center justify-center bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='https://github.com/dbpl566/474-Project-1'>
-                                                <FaGithub />
-                                                <span className='ml-3'>
+                                                <FaGithub className='text-xl'/>
+                                                <span className='ml-3 text-xl'>
                                                     CODE
                                                 </span>
                                             </a>
                                             <a className='w-3/6 sm:w-1/4 p-2 mt-4 flex items-center justify-center bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='/'>
-                                                <FaYoutube />
-                                                <span className='ml-3'>
+                                                <FaYoutube className='text-xl'/>
+                                                <span className='ml-3 text-xl'>
                                                     DEMO
                                                 </span>
                                             </a>
@@ -445,7 +445,7 @@ const Projects = () => {
                         <div>
                             <div className={!info6 ? 'hidden' : 'fixed inset-0 z-10 overflow auto none flex top-0 left-0 w-full h-screen bg-[#030200] backdrop-filter backdrop-blur-lg bg-opacity-70 flex-col justify-center items-center'}>
                                 <div onClick={handleClick6} className='hidden-lg z-10'>
-                                    {!info6 ? 'hidden' : <FaTimes className='absolute text-white text-4xl top-10 right-10 hover:text-pink-600' />}
+                                    {!info6 ? 'hidden' : <FaTimes className='absolute text-white text-4xl top-4 right-4 hover:text-pink-600' />}
                                 </div>
                                 <div id="overlay-container-1" className='w-full sm:w-3/6 flex flex-col items-center mb-5 pt-12 mx-auto'>
                                     <h3 className='text-white text-4xl font-bold m-3 w-11/12 sm:w-full'>
@@ -458,7 +458,7 @@ const Projects = () => {
                                         <h6 className='text-2xl text-white'>
                                             VR Experience
                                         </h6>
-                                        <p className='overflow-auto max-h-36'>
+                                        <p className='overflow-auto max-h-28'>
                                         As we re-acclimate to social interactions following the pandemic and other issues of racial injustices, 
                                         we must be aware of how our actions may affect those around us. We must do this because there is a growing deficiency 
                                         in understanding the perspectives of people of different races/ethnicities.  
@@ -466,14 +466,14 @@ const Projects = () => {
                                         </p>
                                         <div className='flex'>
                                             <a className='w-3/6 sm:w-1/4 p-2 mt-4 flex items-center justify-center bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='https://github.com/HCI-UD/finalproject-3virtualavatar'>
-                                                <FaGithub />
-                                                <span className='ml-3'>
+                                                <FaGithub className='text-xl'/>
+                                                <span className='ml-3 text-xl'>
                                                     CODE
                                                 </span>
                                             </a>
                                             <a className='w-3/6 sm:w-1/4 p-2 mt-4 flex items-center justify-center bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='/'>
-                                                <FaYoutube />
-                                                <span className='ml-3'>
+                                                <FaYoutube className='text-xl'/>
+                                                <span className='ml-3 text-xl'>
                                                     DEMO
                                                 </span>
                                             </a>
