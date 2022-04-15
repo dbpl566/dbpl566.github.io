@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import {FaBars, FaTimes} from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
 import Logo from '../assets/logo.png';
 import Home from './Home';
 import About from './About';
@@ -41,7 +40,7 @@ const Navbar = () => {
 
       {/*Hamburger */}
       <div onClick={handleClick} className='md:hidden z-10'>
-        {!nav ? <FaBars className='text-xl' /> : <FaTimes className='text-white' />}
+        {!nav ? <FaBars className='text-3xl' alt='Menu' /> : <FaTimes className='text-white text-3xl' alt='Close Menu' />}
       </div>
 
       {/*Mobile menu*/}
