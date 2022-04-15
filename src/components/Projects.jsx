@@ -61,7 +61,7 @@ const Projects = () => {
                                 <div onClick={handleClick} className='hidden-lg z-10'>
                                     {!info ? 'hidden' : <FaTimes className='absolute text-white text-4xl top-4 right-4 hover:text-pink-600' />}
                                 </div>
-                                <div id="overlay-container-1" className='w-full sm:w-3/6 flex flex-col items-center mb-5 pt-12 mx-auto'>
+                                <div id="overlay-container-1" className='w-full sm:w-3/6 flex flex-col items-center mb-5 pt-12 mx-auto overflow-scroll'>
                                     <h3 className='text-white text-4xl font-bold m-3 w-11/12 sm:w-full'>
                                         Estuary Escapades
                                     </h3>
@@ -136,7 +136,7 @@ const Projects = () => {
                                 <div onClick={handleClick2} className='hidden-lg z-10'>
                                     {!info2 ? 'hidden' : <FaTimes className='absolute text-white text-4xl top-4 right-4 hover:text-pink-600' />}
                                 </div>
-                                <div id="overlay-container-2" className='w-full sm:w-3/6 flex flex-col items-center mb-5 pt-12 mx-auto'>
+                                <div id="overlay-container-2" className='w-full sm:w-3/6 flex flex-col items-center mb-5 pt-12 mx-auto overflow-scroll'>
                                     <h3 className='text-white text-4xl font-bold m-3 w-11/12 sm:w-full'>
                                         Fee Fi Fo Fall
                                     </h3>
