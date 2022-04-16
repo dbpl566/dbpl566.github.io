@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {FaBars, FaTimes} from 'react-icons/fa';
+import {FaGithub, FaLinkedin} from 'react-icons/fa';
 import Logo from '../assets/logo.png';
 import Home from './Home';
 import About from './About';
@@ -15,27 +16,39 @@ const Navbar = () => {
     <div className="fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#ff8ba7] text-[#030200]">
       <div>
         <a href="https://dbpl566.github.io/">
-          <img src={Logo} alt="Logo of the Initials DL" style={{width: '40px'}} />
+          <img src={Logo} alt="Logo of the Initials DL" style={{width: '40px'}}/>
         </a>
       </div>
 
       {/*Desktop menu*/}
       <ul className='hidden md:flex'>
         <Link to="Home" smooth={true}>
-          <li>Home</li>
+          <li className='hover:text-white duration-300'>Home</li>
         </Link>
 
         <Link to="About" smooth={true}>
-          <li>About</li>
+          <li className='hover:text-white duration-300'>About</li>
         </Link>
 
         <Link to="Projects" smooth={true}>
-          <li>Projects</li>
+          <li className='hover:text-white duration-300'>Projects</li>
         </Link>
 
         <Link to="Contact" smooth={true}>
-          <li>Contact</li>
+          <li className='hover:text-white duration-300'>Contact</li>
         </Link>
+
+        <li>
+          <a href='https://github.com/dbpl566' className='text-xl hover:text-white duration-300'>
+            <FaGithub />
+          </a>
+        </li>
+        <li>
+          <a href='/' className='text-xl hover:text-white duration-300'>
+            <FaLinkedin />
+          </a>
+        </li>
+
       </ul>
 
       {/*Hamburger */}
@@ -57,6 +70,18 @@ const Navbar = () => {
         <Link onClick={handleClick} to="Contact" smooth={true} duration={500}>
           <li className='flex md:hidden py-6 text-4xl hover:text-pink-600 text-white'>Contact</li>
         </Link>
+        <div className='mt-3 flex justify-center items-center space-x-3'>
+          <li>
+            <a href='https://github.com/dbpl566' className='flex md:hidden py-6 text-4xl hover:text-pink-600 text-white'>
+              <FaGithub />
+            </a>
+          </li>
+          <li>
+            <a href='/' className='flex md:hidden py-6 text-4xl hover:text-pink-600 text-white'>
+              <FaLinkedin />
+            </a>
+          </li>
+        </div>
       </ul>
     </div>
   );

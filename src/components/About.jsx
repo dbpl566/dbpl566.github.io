@@ -17,7 +17,7 @@ const About = () => {
                       Hi! I'm Debra. I'm a software engineer with a passion for web development.
                       I love figuring out how visually stunning applications work under the hood,
                       and aim to create equally well-designed, user-centric applications.
-                      When I'm not programming, I enjoy painting, reading and cafe hopping.
+                      
                     </p>
                   </div>
                 </div>
