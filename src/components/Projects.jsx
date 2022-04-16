@@ -271,7 +271,7 @@ const Projects = () => {
 
                     
                     {/* Fourth Project */}
-                    <div className='group container rounded-md bg-[#0a192f] text-gray-300'>
+                    {/* <div className='group container rounded-md bg-[#0a192f] text-gray-300'>
                         <div className='flex flex-col'>
                             <div className='w-11/12 m-auto'>
                                 <h5 className='text-xl pt-3 font-bold'>
@@ -285,10 +285,10 @@ const Projects = () => {
                         
                         <div name='project image' onClick={handleClick4}>
                             <img id='Estuary Game' src={Project1} className='w-full' alt='Game start screen with artwork of an estuary and its wildlife'/>
-                        </div>
+                        </div> */}
 
                         {/* Project 1 Overlay */}
-                        <div id='overlay-1'>
+                        {/* <div id='overlay-1'>
                             <div className={!info4 ? 'hidden' : 'fixed inset-0 z-10 overflow auto none flex top-0 left-0 w-full h-screen bg-[#030200] backdrop-filter backdrop-blur-lg bg-opacity-70 flex-col justify-center items-center'}>
                                 <div onClick={handleClick4} className='hidden-lg z-10'>
                                     {!info4 ? 'hidden' : <FaTimes className='absolute text-white text-2xl top-4 right-4 hover:text-pink-600' />}
@@ -344,10 +344,10 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     {/* Fifth Project */}
-                    <div className='group container rounded-md bg-[#0a192f]'>
+                    {/* <div className='group container rounded-md bg-[#0a192f]'>
                         <div className='flex flex-col'>
                             <div className='w-11/12 m-auto'>
                                 <h5 className='text-xl pt-3 font-bold'>
@@ -360,10 +360,10 @@ const Projects = () => {
                         </div>
                         <div name='project image' onClick={handleClick5}>
                             <img id='Scrolling Game' src={Project2} className='w-full' alt='Game start screen with artwork of leafy beanstalk in front of cloudy sky'/>
-                        </div>
+                        </div> */}
 
                         {/* Project 5 Overlay */}
-                        <div id='overlay-2'>
+                        {/* <div id='overlay-2'>
                             <div className={!info5 ? 'hidden' : 'fixed inset-0 z-10 overflow auto none flex top-0 left-0 w-full h-screen bg-[#030200] backdrop-filter backdrop-blur-lg bg-opacity-70 flex-col justify-center items-center'}>
                                 <div onClick={handleClick5} className='hidden-lg z-10'>
                                     {!info5 ? 'hidden' : <FaTimes className='absolute text-white text-2xl top-4 right-4 hover:text-pink-600' />}
@@ -421,11 +421,11 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
             
 
                     {/* Sixth Project */}
-                    <div className='group container rounded-md bg-[#0a192f]'>
+                    {/* <div className='group container rounded-md bg-[#0a192f]'>
                         <div className='flex flex-col'>
                             <div className='w-11/12 m-auto'>
                                 <h5 className='text-xl pt-3 font-bold'>
@@ -439,10 +439,10 @@ const Projects = () => {
 
                         <div name='project image' onClick={handleClick6}>
                             <img id='Virtual Avatars' src={Project3} className='w-full' alt='Game start screen with male avatar standing behind counter at coffee shop'/>
-                        </div>
+                        </div> */}
 
                         {/* Project 6 Overlay */}
-                        <div>
+                        {/* <div>
                             <div className={!info6 ? 'hidden' : 'fixed inset-0 z-10 overflow auto none flex top-0 left-0 w-full h-screen bg-[#030200] backdrop-filter backdrop-blur-lg bg-opacity-70 flex-col justify-center items-center'}>
                                 <div onClick={handleClick6} className='hidden-lg z-10'>
                                     {!info6 ? 'hidden' : <FaTimes className='absolute text-white text-2xl top-4 right-4 hover:text-pink-600' />}
@@ -481,9 +481,9 @@ const Projects = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
-                        <div className='w-full'>
+                        {/* <div className='w-full'>
                             <div className='flex justify-between flex-col sm:flex-row w-11/12 m-auto my-4'>
                                 <div className='flex items-center mb-3 sm:mb-0 font-bold text-xl'>
                                     <p className='mr-3'>C#</p>
@@ -499,7 +499,7 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
