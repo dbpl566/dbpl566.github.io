@@ -72,7 +72,7 @@ const Projects = () => {
                                         <h4 className='text-2xl text-white'>
                                             K-12 Educational Game
                                         </h4>
-                                        <p className='overflow-auto max-h-28'>
+                                        <p className='overflow-auto max-h-14'>
                                         Three minigames, each about a minute long, with a cumulative scoring system: 
                                         Game 1: matching an animal in the estuary to its description. 
                                         Game 2: playing as an animal from game 1, dodge predators and other animals while searching for food. 
@@ -147,7 +147,7 @@ const Projects = () => {
                                         <h6 className='text-2xl text-white'>
                                             Vertical Scrolling Game
                                         </h6>
-                                        <p className='overflow-auto max-h-28'>
+                                        <p className='overflow-auto max-h-14'>
                                         This game is a vertical endless falling game. Players can use keys to move left or right. 
                                         Randomly generated bricks or obstacles will appear at the bottom along. 
                                         Try to avoid the obstacle and get land on the safe brick and survive as long as you can. 
@@ -226,7 +226,7 @@ const Projects = () => {
                                         <h6 className='text-2xl text-white'>
                                             VR Experience
                                         </h6>
-                                        <p className='overflow-auto max-h-28'>
+                                        <p className='overflow-auto max-h-14'>
                                         As we re-acclimate to social interactions following the pandemic and other issues of racial injustices, 
                                         we must be aware of how our actions may affect those around us. We must do this because there is a growing deficiency 
                                         in understanding the perspectives of people of different races/ethnicities.  
@@ -304,7 +304,7 @@ const Projects = () => {
                                         <h6 className='text-2xl text-white'>
                                             K-12 Educational Game for the DNERRC
                                         </h6>
-                                        <p className='overflow-auto max-h-28'>
+                                        <p className='overflow-auto max-h-14'>
                                         Three minigames, each about a minute long, with a cumulative scoring system: 
                                         Game 1: matching an animal in the estuary to its description. 
                                         Game 2: playing as an animal from game 1, dodge predators and other animals while searching for food. 
@@ -379,7 +379,7 @@ const Projects = () => {
                                         <h6 className='text-2xl text-white'>
                                             Vertical Scrolling Game
                                         </h6>
-                                        <p className='overflow-auto max-h-28'>
+                                        <p className='overflow-auto max-h-14'>
                                         This game is a vertical endless falling game. Players can use keys to move left or right. 
                                         Randomly generated bricks or obstacles will appear at the bottom along. 
                                         Try to avoid the obstacle and get land on the safe brick and survive as long as you can. 
@@ -458,7 +458,7 @@ const Projects = () => {
                                         <h6 className='text-2xl text-white'>
                                             VR Experience
                                         </h6>
-                                        <p className='overflow-auto max-h-28'>
+                                        <p className='overflow-auto max-h-14'>
                                         As we re-acclimate to social interactions following the pandemic and other issues of racial injustices, 
                                         we must be aware of how our actions may affect those around us. We must do this because there is a growing deficiency 
                                         in understanding the perspectives of people of different races/ethnicities.  
