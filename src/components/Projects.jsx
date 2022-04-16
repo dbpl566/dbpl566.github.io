@@ -287,7 +287,7 @@ const Projects = () => {
                             <img id='Estuary Game' src={Project1} className='w-full' alt='Game start screen with artwork of an estuary and its wildlife'/>
                         </div>
 
-                        {/* Project 4 Overlay */}
+                        {/* Project 1 Overlay */}
                         <div id='overlay-1'>
                             <div className={!info4 ? 'hidden' : 'fixed inset-0 z-10 overflow auto none flex top-0 left-0 w-full h-screen bg-[#030200] backdrop-filter backdrop-blur-lg bg-opacity-70 flex-col justify-center items-center'}>
                                 <div onClick={handleClick4} className='hidden-lg z-10'>
@@ -301,9 +301,9 @@ const Projects = () => {
                                         <img src={Project1} className='w-full' alt='Game start screen with artwork of an estuary and its wildlife'/>
                                     </div>
                                     <div className='w-11/12 sm:w-full mt-3 text-white flex flex-col'>
-                                        <h6 className='text-2xl text-white'>
-                                            K-12 Educational Game for the DNERRC
-                                        </h6>
+                                        <h4 className='text-2xl text-white'>
+                                            K-12 Educational Game
+                                        </h4>
                                         <p className='overflow-auto max-h-14'>
                                         Three minigames, each about a minute long, with a cumulative scoring system: 
                                         Game 1: matching an animal in the estuary to its description. 
