@@ -62,9 +62,23 @@ const Projects = () => {
                                     {!info ? 'hidden' : <FaTimes className='absolute text-white text-2xl top-4 right-4 hover:text-pink-600' />}
                                 </div>
                                 <div id="overlay-container-1" className='w-full sm:w-3/6 flex flex-col items-center mb-5 pt-12 mx-auto'>
-                                    <h3 className='text-white text-4xl font-bold m-3 w-11/12 sm:w-full'>
+                                    <h3 className='text-white text-3xl font-bold flex items-center justify-center'>
                                         Estuary Escapades
                                     </h3>
+                                    <div className='flex'>
+                                        <a className='p-2 my-4 mx-4 flex items-center justify-between bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='https://github.com/CISC275-Fall2019/cisc275f19-project-cisc275f19-team-11-4'>
+                                            <FaGithub className='text-xl'/>
+                                            <span className='ml-3 text-xl'>
+                                                CODE
+                                            </span>
+                                        </a>
+                                        <a className='p-2 my-4 mx-4 flex items-center justify-between bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='https://www.youtube.com/watch?v=HeKU4qmBCKc'>
+                                            <FaYoutube className='text-xl'/>
+                                            <span className='ml-3 text-xl'>
+                                                DEMO
+                                            </span>
+                                        </a>
+                                    </div>
                                     <div id='overlay-container-image-1' className='border border-pink-600 shadow-xl'>
                                         <img src={Project1} className='w-full' alt='Game start screen with artwork of an estuary and its wildlife'/>
                                     </div>
@@ -72,26 +86,13 @@ const Projects = () => {
                                         <h4 className='text-2xl text-white'>
                                             K-12 Educational Game
                                         </h4>
-                                        <p className='overflow-auto max-h-14'>
+                                        <p className='overflow-auto max-h-28'>
                                         Three minigames, each about a minute long, with a cumulative scoring system: 
                                         Game 1: matching an animal in the estuary to its description. 
                                         Game 2: playing as an animal from game 1, dodge predators and other animals while searching for food. 
                                         Game 3: playing as a person, pick up trash using the right tools and receptacles.
                                         </p>
-                                        <div className='flex'>
-                                            <a className='w-3/6 sm:w-1/4 p-2 mt-4 flex items-center justify-center bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='https://github.com/CISC275-Fall2019/cisc275f19-project-cisc275f19-team-11-4'>
-                                                <FaGithub className='text-xl'/>
-                                                <span className='ml-3 text-xl'>
-                                                    CODE
-                                                </span>
-                                            </a>
-                                            <a className='w-3/6 sm:w-1/4 p-2 mt-4 flex items-center justify-center bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='https://www.youtube.com/watch?v=HeKU4qmBCKc'>
-                                                <FaYoutube className='text-xl'/>
-                                                <span className='ml-3 text-xl'>
-                                                    DEMO
-                                                </span>
-                                            </a>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
