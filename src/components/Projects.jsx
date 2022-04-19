@@ -116,7 +116,7 @@ const Projects = () => {
                     </div>
 
                     {/* Second Project */}
-                    <div className='group container rounded-md bg-[#0a192f]'>
+                    <div className='group container rounded-md bg-[#0a192f] text-gray-300'>
                         <div className='flex flex-col'>
                             <div className='w-11/12 m-auto'>
                                 <h5 className='text-xl pt-3 font-bold'>
@@ -127,6 +127,7 @@ const Projects = () => {
                                 </h2>
                             </div>
                         </div>
+
                         <div name='project image' onClick={handleClick2}>
                             <img id='Scrolling Game' src={Project2} className='w-full' alt='Game start screen with artwork of leafy beanstalk in front of cloudy sky'/>
                         </div>
@@ -138,9 +139,23 @@ const Projects = () => {
                                     {!info2 ? 'hidden' : <FaTimes className='absolute text-white text-2xl top-4 right-4 hover:text-pink-600' />}
                                 </div>
                                 <div id="overlay-container-2" className='w-full sm:w-3/6 flex flex-col items-center mb-5 pt-12 mx-auto'>
-                                    <h3 className='text-white text-4xl font-bold m-3 w-11/12 sm:w-full'>
+                                    <h3 className='text-white text-3xl font-bold flex items-center justify-center'>
                                         Fee Fi Fo Fall
                                     </h3>
+                                    <div className='flex'>
+                                        <a className='p-2 my-4 mx-4 flex items-center justify-between bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='https://github.com/dbpl566/474-Project-1'>
+                                            <FaGithub className='text-xl'/>
+                                            <span className='ml-3 text-xl'>
+                                                CODE
+                                            </span>
+                                        </a>
+                                        <a className='p-2 my-4 mx-4 flex items-center justify-between bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='/'>
+                                            <FaYoutube className='text-xl'/>
+                                            <span className='ml-3 text-xl'>
+                                                DEMO
+                                            </span>
+                                        </a>
+                                    </div>
                                     <div id='overlay-container-image-2' className='border border-pink-600 shadow-xl'>
                                         <img src={Project2} className='w-full' alt='Game start screen with artwork of leafy beanstalk in front of cloudy sky'/>
                                     </div>
@@ -148,26 +163,12 @@ const Projects = () => {
                                         <h6 className='text-2xl text-white'>
                                             Vertical Scrolling Game
                                         </h6>
-                                        <p className='overflow-auto max-h-14'>
+                                        <p className='overflow-auto max-h-28'>
                                         This game is a vertical endless falling game. Players can use keys to move left or right. 
                                         Randomly generated bricks or obstacles will appear at the bottom along. 
                                         Try to avoid the obstacle and get land on the safe brick and survive as long as you can. 
                                         Score will be calculated according to both time and bricks you landed. Dungeon themed, similar to ns-shaft game.
                                         </p>
-                                        <div className='flex'>
-                                            <a className='w-3/6 sm:w-1/4 p-2 mt-4 flex items-center justify-center bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='https://github.com/dbpl566/474-Project-1'>
-                                                <FaGithub className='text-xl'/>
-                                                <span className='ml-3 text-xl'>
-                                                    CODE
-                                                </span>
-                                            </a>
-                                            <a className='w-3/6 sm:w-1/4 p-2 mt-4 flex items-center justify-center bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='/'>
-                                                <FaYoutube className='text-xl'/>
-                                                <span className='ml-3 text-xl'>
-                                                    DEMO
-                                                </span>
-                                            </a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -217,9 +218,23 @@ const Projects = () => {
                                     {!info3 ? 'hidden' : <FaTimes className='absolute text-white text-2xl top-4 right-4 hover:text-pink-600' />}
                                 </div>
                                 <div id="overlay-container-1" className='w-full sm:w-3/6 flex flex-col items-center mb-5 pt-12 mx-auto'>
-                                    <h3 className='text-white text-4xl font-bold m-3 w-11/12 sm:w-full'>
+                                    <h3 className='text-white text-3xl font-bold items-center justify-center'>
                                         Virtual Avatars
                                     </h3>
+                                    <div className='flex'>
+                                        <a className='p-2 my-4 mx-4 flex items-center justify-between bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='https://github.com/HCI-UD/finalproject-3virtualavatar'>
+                                            <FaGithub className='text-xl'/>
+                                            <span className='ml-3 text-xl'>
+                                                CODE
+                                            </span>
+                                        </a>
+                                        <a className='p-2 my-4 mx-4 flex items-center justify-between bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='/'>
+                                            <FaYoutube className='text-xl'/>
+                                            <span className='ml-3 text-xl'>
+                                                DEMO
+                                            </span>
+                                        </a>
+                                    </div>
                                     <div id='overlay-container-image-1' className='border border-pink-600 shadow-xl'>
                                         <img src={Project3} className='w-full' alt='Game start screen with male avatar standing behind counter at coffee shop'/>
                                     </div>
@@ -227,26 +242,12 @@ const Projects = () => {
                                         <h6 className='text-2xl text-white'>
                                             VR Experience
                                         </h6>
-                                        <p className='overflow-auto max-h-14'>
+                                        <p className='overflow-auto max-h-28'>
                                         As we re-acclimate to social interactions following the pandemic and other issues of racial injustices, 
                                         we must be aware of how our actions may affect those around us. We must do this because there is a growing deficiency 
                                         in understanding the perspectives of people of different races/ethnicities.  
                                         As users, we need an application that allows us to practice mitigating this implicit racial bias in various social environments.
                                         </p>
-                                        <div className='flex'>
-                                            <a className='w-3/6 sm:w-1/4 p-2 mt-4 flex items-center justify-center bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='https://github.com/HCI-UD/finalproject-3virtualavatar'>
-                                                <FaGithub className='text-xl'/>
-                                                <span className='ml-3 text-xl'>
-                                                    CODE
-                                                </span>
-                                            </a>
-                                            <a className='w-3/6 sm:w-1/4 p-2 mt-4 flex items-center justify-center bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='/'>
-                                                <FaYoutube className='text-xl'/>
-                                                <span className='ml-3 text-xl'>
-                                                    DEMO
-                                                </span>
-                                            </a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
