@@ -86,7 +86,7 @@ const Projects = () => {
                                         <h4 className='text-2xl text-white'>
                                             K-12 Educational Game
                                         </h4>
-                                        <p>
+                                        <p className='pb-4'>
                                         Three minigames, each about a minute long, with a cumulative scoring system: 
                                         Game 1: matching an animal in the estuary to its description. 
                                         Game 2: playing as an animal from game 1, dodge predators and other animals while searching for food. 
@@ -146,11 +146,11 @@ const Projects = () => {
 
                         {/* Project 2 Overlay */}
                         <div id='overlay-2'>
-                            <div className={!info2 ? 'hidden' : 'fixed inset-0 z-10 overflow auto none flex top-0 left-0 w-full h-screen bg-[#030200] backdrop-filter backdrop-blur-lg bg-opacity-70 flex-col justify-center items-center'}>
+                            <div className={!info2 ? 'hidden' : 'fixed inset-0 z-10 overflow auto none flex w-full bg-[#030200] backdrop-filter backdrop-blur-lg bg-opacity-70 flex-col justify-center items-center overflow-auto max-h-screen overscroll-none'}>
                                 <div onClick={handleClick2} className='hidden-lg z-10'>
                                     {!info2 ? 'hidden' : <FaTimes className='absolute text-white text-2xl top-4 right-4 hover:text-pink-600' />}
                                 </div>
-                                <div id="overlay-container-2" className='w-full sm:w-3/6 flex flex-col items-center mb-5 pt-12 mx-auto'>
+                                <div id="overlay-container-2" className='w-full sm:w-3/6 h-screen flex flex-col items-center mb-5 pt-12 mx-auto'>
                                     <h3 className='text-white text-3xl font-bold flex items-center justify-center'>
                                         Fee Fi Fo Fall
                                     </h3>
@@ -175,7 +175,15 @@ const Projects = () => {
                                         <h6 className='text-2xl text-white'>
                                             Vertical Scrolling Game
                                         </h6>
-                                        <p className='overflow-auto max-h-28'>
+                                        <p className='pb-4'>
+                                        This game is a vertical endless falling game. Players can use keys to move left or right. 
+                                        Randomly generated bricks or obstacles will appear at the bottom along. 
+                                        Try to avoid the obstacle and get land on the safe brick and survive as long as you can. 
+                                        Score will be calculated according to both time and bricks you landed. Dungeon themed, similar to ns-shaft game.
+                                        This game is a vertical endless falling game. Players can use keys to move left or right. 
+                                        Randomly generated bricks or obstacles will appear at the bottom along. 
+                                        Try to avoid the obstacle and get land on the safe brick and survive as long as you can. 
+                                        Score will be calculated according to both time and bricks you landed. Dungeon themed, similar to ns-shaft game.
                                         This game is a vertical endless falling game. Players can use keys to move left or right. 
                                         Randomly generated bricks or obstacles will appear at the bottom along. 
                                         Try to avoid the obstacle and get land on the safe brick and survive as long as you can. 
@@ -225,11 +233,11 @@ const Projects = () => {
 
                         {/* Project 3 Overlay */}
                         <div id='overlay-1'>
-                            <div className={!info3 ? 'hidden' : 'fixed inset-0 z-10 overflow auto none flex top-0 left-0 w-full h-screen bg-[#030200] backdrop-filter backdrop-blur-lg bg-opacity-70 flex-col justify-center items-center'}>
+                            <div className={!info3 ? 'hidden' : 'fixed inset-0 z-10 overflow auto none flex w-full bg-[#030200] backdrop-filter backdrop-blur-lg bg-opacity-70 flex-col justify-center items-center overflow-auto max-h-screen overscroll-none'}>
                                 <div onClick={handleClick3} className='hidden-lg z-10'>
                                     {!info3 ? 'hidden' : <FaTimes className='absolute text-white text-2xl top-4 right-4 hover:text-pink-600' />}
                                 </div>
-                                <div id="overlay-container-1" className='w-full sm:w-3/6 flex flex-col items-center mb-5 pt-12 mx-auto'>
+                                <div id="overlay-container-1" className='w-full sm:w-3/6 h-screen flex flex-col items-center mb-5 pt-12 mx-auto'>
                                     <h3 className='text-white text-3xl font-bold items-center justify-center'>
                                         Virtual Avatars
                                     </h3>
@@ -254,7 +262,15 @@ const Projects = () => {
                                         <h6 className='text-2xl text-white'>
                                             VR Experience
                                         </h6>
-                                        <p className='overflow-auto max-h-28'>
+                                        <p className='pb-4'>
+                                        As we re-acclimate to social interactions following the pandemic and other issues of racial injustices, 
+                                        we must be aware of how our actions may affect those around us. We must do this because there is a growing deficiency 
+                                        in understanding the perspectives of people of different races/ethnicities.  
+                                        As users, we need an application that allows us to practice mitigating this implicit racial bias in various social environments.
+                                        As we re-acclimate to social interactions following the pandemic and other issues of racial injustices, 
+                                        we must be aware of how our actions may affect those around us. We must do this because there is a growing deficiency 
+                                        in understanding the perspectives of people of different races/ethnicities.  
+                                        As users, we need an application that allows us to practice mitigating this implicit racial bias in various social environments.
                                         As we re-acclimate to social interactions following the pandemic and other issues of racial injustices, 
                                         we must be aware of how our actions may affect those around us. We must do this because there is a growing deficiency 
                                         in understanding the perspectives of people of different races/ethnicities.  
