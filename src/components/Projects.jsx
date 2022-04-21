@@ -65,7 +65,7 @@ const Projects = () => {
                                     <h3 className='text-white text-3xl font-bold flex items-center justify-center'>
                                         Estuary Escapades
                                     </h3>
-                                    <div className='flex'>
+                                    <div className='flex p-4'>
                                         <a className='p-2 my-4 mx-4 flex items-center justify-between bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='https://github.com/CISC275-Fall2019/cisc275f19-project-cisc275f19-team-11-4'>
                                             <FaGithub className='text-xl'/>
                                             <span className='ml-3 text-xl'>
@@ -154,7 +154,7 @@ const Projects = () => {
                                     <h3 className='text-white text-3xl font-bold flex items-center justify-center'>
                                         Fee Fi Fo Fall
                                     </h3>
-                                    <div className='flex'>
+                                    <div className='flex p-4'>
                                         <a className='p-2 my-4 mx-4 flex items-center justify-between bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='https://github.com/dbpl566/474-Project-1'>
                                             <FaGithub className='text-xl'/>
                                             <span className='ml-3 text-xl'>
@@ -241,7 +241,7 @@ const Projects = () => {
                                     <h3 className='text-white text-3xl font-bold items-center justify-center'>
                                         Virtual Avatars
                                     </h3>
-                                    <div className='flex'>
+                                    <div className='flex p-4'>
                                         <a className='p-2 my-4 mx-4 flex items-center justify-between bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='https://github.com/HCI-UD/finalproject-3virtualavatar'>
                                             <FaGithub className='text-xl'/>
                                             <span className='ml-3 text-xl'>
