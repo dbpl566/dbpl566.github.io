@@ -56,7 +56,7 @@ const Projects = () => {
                         </div>
 
                         {/* Project 1 Overlay */}
-                        <div id='overlay-1'>
+                        <div id='overlay-1' className='overflow:hidden'>
                             <div className={!info ? 'hidden' : 'fixed inset-0 z-10 overflow auto none flex w-full bg-[#030200] backdrop-filter backdrop-blur-lg bg-opacity-70 flex-col justify-center items-center overflow-auto max-h-screen overscroll-none'}>
                                 <div onClick={handleClick} className='hidden-lg z-10'>
                                     {!info ? 'hidden' : <FaTimes className='absolute text-white text-2xl top-4 right-4 hover:text-pink-600' />}
