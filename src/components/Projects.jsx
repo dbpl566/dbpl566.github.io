@@ -65,14 +65,14 @@ const Projects = () => {
                                     <h3 className='text-white text-3xl font-bold flex items-center justify-center'>
                                         Estuary Escapades
                                     </h3>
-                                    <div className='flex p-4'>
-                                        <a className='p-2 my-4 mx-4 flex items-center justify-between bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='https://github.com/CISC275-Fall2019/cisc275f19-project-cisc275f19-team-11-4'>
+                                    <div className='grid grid-cols-2'>
+                                        <a className='p-2 my-4 mx-4 flex items-center justify-between bg-[#030200] hover:bg-pink-600 border-2 border-pink-600 rounded-md transition-colors duration-300' href='https://github.com/CISC275-Fall2019/cisc275f19-project-cisc275f19-team-11-4'>
                                             <FaGithub className='text-xl'/>
                                             <span className='ml-3 text-xl'>
                                                 CODE
                                             </span>
                                         </a>
-                                        <a className='p-2 my-4 mx-4 flex items-center justify-between bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='https://www.youtube.com/watch?v=HeKU4qmBCKc'>
+                                        <a className='p-2 my-4 mx-4 flex items-center justify-between bg-[#030200] hover:bg-pink-600 border-2 border-pink-600 rounded-md transition-colors duration-300' href='https://www.youtube.com/watch?v=HeKU4qmBCKc'>
                                             <FaYoutube className='text-xl'/>
                                             <span className='ml-3 text-xl'>
                                                 DEMO
@@ -154,14 +154,14 @@ const Projects = () => {
                                     <h3 className='text-white text-3xl font-bold flex items-center justify-center'>
                                         Fee Fi Fo Fall
                                     </h3>
-                                    <div className='flex p-4'>
-                                        <a className='p-2 my-4 mx-4 flex items-center justify-between bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='https://github.com/dbpl566/474-Project-1'>
+                                    <div className='grid grid-cols-2'>
+                                        <a className='p-2 my-4 mx-4 flex items-center justify-between bg-[#030200] hover:bg-pink-600 border-2 border-pink-600 rounded-md transition-colors duration-300' href='https://github.com/dbpl566/474-Project-1'>
                                             <FaGithub className='text-xl'/>
                                             <span className='ml-3 text-xl'>
                                                 CODE
                                             </span>
                                         </a>
-                                        <a className='p-2 my-4 mx-4 flex items-center justify-between bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='/'>
+                                        <a className='p-2 my-4 mx-4 flex items-center justify-between bg-[#030200] hover:bg-pink-600 border-2 border-pink-600 rounded-md transition-colors duration-300' href='/'>
                                             <FaYoutube className='text-xl'/>
                                             <span className='ml-3 text-xl'>
                                                 DEMO
@@ -241,14 +241,14 @@ const Projects = () => {
                                     <h3 className='text-white text-3xl font-bold items-center justify-center'>
                                         Virtual Avatars
                                     </h3>
-                                    <div className='flex p-4'>
-                                        <a className='p-2 my-4 mx-4 flex items-center justify-between bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='https://github.com/HCI-UD/finalproject-3virtualavatar'>
+                                    <div className='grid grid-cols-2'>
+                                        <a className='p-2 my-4 mx-4 flex items-center justify-between bg-[#030200] hover:bg-pink-600 border-2 border-pink-600 rounded-md transition-colors duration-300' href='https://github.com/HCI-UD/finalproject-3virtualavatar'>
                                             <FaGithub className='text-xl'/>
                                             <span className='ml-3 text-xl'>
                                                 CODE
                                             </span>
                                         </a>
-                                        <a className='p-2 my-4 mx-4 flex items-center justify-between bg-[#030200] hover:bg-pink-600 border-2 border-gray-600 rounded-md transition-colors duration-300' href='/'>
+                                        <a className='p-2 my-4 mx-4 flex items-center justify-between bg-[#030200] hover:bg-pink-600 border-2 border-pink-600 rounded-md transition-colors duration-300' href='/'>
                                             <FaYoutube className='text-xl'/>
                                             <span className='ml-3 text-xl'>
                                                 DEMO
