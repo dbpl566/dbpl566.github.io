@@ -17,7 +17,7 @@ const Home = () => {
                 <button className='text-white border-pink-600 border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 transition-colors duration-300'>
                   View Work
                   <HiArrowNarrowRight className='ml-3' />
-                  </button>
+                </button>
             </Link>
         </div>
     </div>
