@@ -9,9 +9,9 @@ const About = () => {
                 <div className='max-w-[1000px] w-full grid gap-8 px-4'>
                   <div className='text-left text-gray-300 my-auto'>
                   <div className='sm:text-left pb-8'>
-                    <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>
+                    <h1 className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>
                       About
-                    </p>
+                    </h1>
                   </div>
                     <p>
                       Hi! I'm Debra. I'm a software engineer with a passion for web development.
