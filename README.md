@@ -5,6 +5,7 @@ This portfolio website was created to display my recent programming projects and
 
 ## Website Features
 * Contact form to directly contact me through email
+* Smooth-scroll navigation
 * Responsive layout structure for desktop and mobile
 
 ## Tech Used
