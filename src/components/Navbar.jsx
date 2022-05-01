@@ -44,7 +44,7 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <a href='/' className='text-xl hover:text-white duration-300'>
+          <a href='https://www.linkedin.com/in/deblymon/' className='text-xl hover:text-white duration-300'>
             <FaLinkedin />
           </a>
         </li>
@@ -77,7 +77,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href='/' className='flex md:hidden py-6 text-4xl hover:text-pink-600 text-white'>
+            <a href='https://www.linkedin.com/in/deblymon/' className='flex md:hidden py-6 text-4xl hover:text-pink-600 text-white'>
               <FaLinkedin />
             </a>
           </li>

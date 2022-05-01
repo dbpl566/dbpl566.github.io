@@ -179,7 +179,7 @@ const Projects = () => {
                                                 CODE
                                             </span>
                                         </a>
-                                        <a className='p-2 my-4 mx-4 flex items-center justify-between bg-[#030200] hover:bg-pink-600 border-2 border-pink-600 rounded-md transition-colors duration-300' href='/'>
+                                        <a className='p-2 my-4 mx-4 flex items-center justify-between bg-[#030200] hover:bg-pink-600 border-2 border-pink-600 rounded-md transition-colors duration-300' href='https://youtu.be/tIMaibPt37U'>
                                             <FaYoutube className='text-xl'/>
                                             <span className='ml-3 text-xl'>
                                                 DEMO
@@ -251,7 +251,7 @@ const Projects = () => {
                                     </button>
                                     <button className='text-xl text-white rounded-md border-pink-600 border-2 px-2 py-2 my-2 flex items-center hover:bg-pink-600 transition-colors duration-300'>
                                         <FaYoutube className='text-xl'/>
-                                            <a href="/" className='ml-3 text-xl'>
+                                            <a href="https://youtu.be/tIMaibPt37U" className='ml-3 text-xl'>
                                                 DEMO
                                             </a>
                                     </button>
