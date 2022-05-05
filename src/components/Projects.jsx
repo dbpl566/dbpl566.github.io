@@ -43,7 +43,7 @@ const Projects = () => {
                             </div>
                         </div>
                         
-                        <div name='project image' onClick={handleClick}>
+                        <div name='project image' onClick={handleClick} className='hover:cursor-pointer'>
                             <img id='Estuary Game' src={Project1} className='w-full' alt='Game start screen with artwork of an estuary and its wildlife'/>
                         </div>
 
@@ -51,7 +51,7 @@ const Projects = () => {
                         <div id='overlay-1'>
                             <div className={!info ? 'hidden' : 'fixed inset-0 z-10 overflow auto none flex w-full bg-[#030200] backdrop-filter backdrop-blur-lg bg-opacity-70 flex-col justify-center items-center overflow-auto max-h-screen overscroll-none'}>
                                 <div onClick={handleClick} className='hidden-lg z-10'>
-                                    {!info ? 'hidden' : <FaTimes className='absolute text-white text-2xl top-4 right-4 hover:text-pink-600' />}
+                                    {!info ? 'hidden' : <FaTimes className='absolute text-white text-2xl top-4 right-4 hover:text-pink-600 hover:cursor-pointer' />}
                                 </div>
                                 <div id="overlay-container-1" className='w-full sm:w-3/6 h-screen flex flex-col items-center mb-5 pt-12 mx-auto'>
                                     <h2 className='text-white text-3xl font-bold flex items-center justify-center'>
@@ -127,7 +127,7 @@ const Projects = () => {
                                 <div className='flex items-center mb-3 sm:mb-0 font-bold text-xl'>
                                     <p className='mr-3'>Java</p>
                                 </div>
-                                <div className='flex space-x-6 justify-center'>
+                                <div className='flex space-x-3 justify-center'>
                                     <a href="https://github.com/CISC275-Fall2019/cisc275f19-project-cisc275f19-team-11-4">
                                         <button className='text-xl text-white rounded-md border-pink-600 border-2 px-2 py-2 my-2 flex items-center hover:bg-pink-600 transition-colors duration-300'>
                                             <FaGithub className='text-xl' />
@@ -162,7 +162,7 @@ const Projects = () => {
                             </div>
                         </div>
 
-                        <div name='project image' onClick={handleClick2}>
+                        <div name='project image' onClick={handleClick2} className='hover:cursor-pointer'>
                             <img id='Scrolling Game' src={Project2} className='w-full' alt='Game start screen with artwork of leafy beanstalk in front of cloudy sky'/>
                         </div>
 
@@ -170,7 +170,7 @@ const Projects = () => {
                         <div id='overlay-2'>
                             <div className={!info2 ? 'hidden' : 'fixed inset-0 z-10 overflow auto none flex w-full bg-[#030200] backdrop-filter backdrop-blur-lg bg-opacity-70 flex-col justify-center items-center overflow-auto max-h-screen overscroll-none'}>
                                 <div onClick={handleClick2} className='hidden-lg z-10'>
-                                    {!info2 ? 'hidden' : <FaTimes className='absolute text-white text-2xl top-4 right-4 hover:text-pink-600' />}
+                                    {!info2 ? 'hidden' : <FaTimes className='absolute text-white text-2xl top-4 right-4 hover:text-pink-600 hover:cursor-pointer' />}
                                 </div>
                                 <div id="overlay-container-2" className='w-full sm:w-3/6 h-screen flex flex-col items-center mb-5 pt-12 mx-auto'>
                                     <h2 className='text-white text-3xl font-bold flex items-center justify-center'>
@@ -246,7 +246,7 @@ const Projects = () => {
                                     <p className='mr-3'>CSS</p>
                                     <p className='mr-3'>HTML</p>
                                 </div>
-                                <div className='flex space-x-6 justify-center'>
+                                <div className='flex space-x-3 justify-center'>
                                     <a href="https://github.com/dbpl566/474-Project-1">
                                         <button className='text-xl text-white rounded-md border-pink-600 border-2 px-2 py-2 my-2 flex items-center hover:bg-pink-600 transition-colors duration-300'>
                                             <FaGithub className='text-xl' />
@@ -282,7 +282,7 @@ const Projects = () => {
                             </div>
                         </div>
 
-                        <div name='project image' onClick={handleClick3}>
+                        <div name='project image' onClick={handleClick3} className='hover:cursor-pointer'>
                             <img id='Virtual Avatars' src={Project3} className='w-full' alt='Game start screen with male avatar standing behind counter at coffee shop'/>
                         </div>
 
@@ -290,7 +290,7 @@ const Projects = () => {
                         <div id='overlay-1'>
                             <div className={!info3 ? 'hidden' : 'fixed inset-0 z-10 overflow auto none flex w-full bg-[#030200] backdrop-filter backdrop-blur-lg bg-opacity-70 flex-col justify-center items-center overflow-auto max-h-screen overscroll-none'}>
                                 <div onClick={handleClick3} className='hidden-lg z-10'>
-                                    {!info3 ? 'hidden' : <FaTimes className='absolute text-white text-2xl top-4 right-4 hover:text-pink-600' />}
+                                    {!info3 ? 'hidden' : <FaTimes className='absolute text-white text-2xl top-4 right-4 hover:text-pink-600 hover:cursor-pointer' />}
                                 </div>
                                 <div id="overlay-container-1" className='w-full sm:w-3/6 h-screen flex flex-col items-center mb-5 pt-12 mx-auto'>
                                     <h2 className='text-white text-3xl font-bold items-center justify-center'>
@@ -361,7 +361,7 @@ const Projects = () => {
                                     <p className='mr-3'>C#</p>
                                     <p className='mr-3'>Unity</p>
                                 </div>
-                                <div className='flex space-x-6 justify-center'>
+                                <div className='flex space-x-3 justify-center'>
                                     <a href="https://github.com/HCI-UD/finalproject-3virtualavatar">
                                         <button className='text-xl text-white rounded-md border-pink-600 border-2 px-2 py-2 my-2 flex items-center hover:bg-pink-600 transition-colors duration-300'>
                                             <FaGithub className='text-xl' />
