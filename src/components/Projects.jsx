@@ -128,18 +128,22 @@ const Projects = () => {
                                     <p className='mr-3'>Java</p>
                                 </div>
                                 <div className='flex space-x-6 justify-center'>
-                                    <button className='text-xl text-white rounded-md border-pink-600 border-2 px-2 py-2 my-2 flex items-center hover:bg-pink-600 transition-colors duration-300'>
-                                        <FaGithub className='text-xl' />
-                                            <a href="https://github.com/CISC275-Fall2019/cisc275f19-project-cisc275f19-team-11-4" className='ml-3 text-xl'>
-                                                CODE
-                                            </a>
-                                    </button>
-                                    <button className='text-xl text-white rounded-md border-pink-600 border-2 px-2 py-2 my-2 flex items-center hover:bg-pink-600 transition-colors duration-300'>
-                                        <FaYoutube className='text-xl'/>
-                                            <a href="https://www.youtube.com/watch?v=HeKU4qmBCKc" className='ml-3 text-xl'>
-                                                DEMO
-                                            </a>
-                                    </button>
+                                    <a href="https://github.com/CISC275-Fall2019/cisc275f19-project-cisc275f19-team-11-4">
+                                        <button className='text-xl text-white rounded-md border-pink-600 border-2 px-2 py-2 my-2 flex items-center hover:bg-pink-600 transition-colors duration-300'>
+                                            <FaGithub className='text-xl' />
+                                                <p  className='ml-3 text-xl'>
+                                                    CODE
+                                                </p>
+                                        </button>
+                                    </a>
+                                    <a href="https://www.youtube.com/watch?v=HeKU4qmBCKc">
+                                        <button className='text-xl text-white rounded-md border-pink-600 border-2 px-2 py-2 my-2 flex items-center hover:bg-pink-600 transition-colors duration-300'>
+                                            <FaYoutube className='text-xl'/>
+                                                <p className='ml-3 text-xl'>
+                                                    DEMO
+                                                </p>
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -243,18 +247,22 @@ const Projects = () => {
                                     <p className='mr-3'>HTML</p>
                                 </div>
                                 <div className='flex space-x-6 justify-center'>
-                                    <button className='text-xl text-white rounded-md border-pink-600 border-2 px-2 py-2 my-2 flex items-center hover:bg-pink-600 transition-colors duration-300'>
-                                        <FaGithub className='text-xl' />
-                                            <a href="https://github.com/dbpl566/474-Project-1" className='ml-3 text-xl'>
-                                                CODE
-                                            </a>
-                                    </button>
-                                    <button className='text-xl text-white rounded-md border-pink-600 border-2 px-2 py-2 my-2 flex items-center hover:bg-pink-600 transition-colors duration-300'>
-                                        <FaYoutube className='text-xl'/>
-                                            <a href="https://youtu.be/tIMaibPt37U" className='ml-3 text-xl'>
-                                                DEMO
-                                            </a>
-                                    </button>
+                                    <a href="https://github.com/dbpl566/474-Project-1">
+                                        <button className='text-xl text-white rounded-md border-pink-600 border-2 px-2 py-2 my-2 flex items-center hover:bg-pink-600 transition-colors duration-300'>
+                                            <FaGithub className='text-xl' />
+                                                <p className='ml-3 text-xl'>
+                                                    CODE
+                                                </p>
+                                        </button>
+                                    </a>
+                                    <a href="https://youtu.be/tIMaibPt37U">
+                                        <button className='text-xl text-white rounded-md border-pink-600 border-2 px-2 py-2 my-2 flex items-center hover:bg-pink-600 transition-colors duration-300'>
+                                            <FaYoutube className='text-xl'/>
+                                                <p className='ml-3 text-xl'>
+                                                    DEMO
+                                                </p>
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -354,18 +362,22 @@ const Projects = () => {
                                     <p className='mr-3'>Unity</p>
                                 </div>
                                 <div className='flex space-x-6 justify-center'>
-                                    <button className='text-xl text-white rounded-md border-pink-600 border-2 px-2 py-2 my-2 flex items-center hover:bg-pink-600 transition-colors duration-300'>
-                                        <FaGithub className='text-xl' />
-                                            <a href="https://github.com/HCI-UD/finalproject-3virtualavatar" className='ml-3 text-xl'>
-                                                CODE
-                                            </a>
-                                    </button>
-                                    <button className='text-xl text-white rounded-md border-pink-600 border-2 px-2 py-2 my-2 flex items-center hover:bg-pink-600 transition-colors duration-300'>
-                                        <FaYoutube className='text-xl'/>
-                                            <a href="/" className='ml-3 text-xl'>
-                                                DEMO
-                                            </a>
-                                    </button>
+                                    <a href="https://github.com/HCI-UD/finalproject-3virtualavatar">
+                                        <button className='text-xl text-white rounded-md border-pink-600 border-2 px-2 py-2 my-2 flex items-center hover:bg-pink-600 transition-colors duration-300'>
+                                            <FaGithub className='text-xl' />
+                                                <p className='ml-3 text-xl'>
+                                                    CODE
+                                                </p>
+                                        </button>
+                                    </a>
+                                    <a href="/">
+                                        <button className='text-xl text-white rounded-md border-pink-600 border-2 px-2 py-2 my-2 flex items-center hover:bg-pink-600 transition-colors duration-300'>
+                                            <FaYoutube className='text-xl'/>
+                                                <p className='ml-3 text-xl'>
+                                                    DEMO
+                                                </p>
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
