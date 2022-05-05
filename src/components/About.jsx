@@ -14,9 +14,10 @@ const About = () => {
                     </h1>
                   </div>
                     <p>
-                      Hi! I'm Debra. I'm a software engineer with a passion for web development.
+                      Hi! I'm Debra. I'm a recent graduate (Computer Science, B.S.) with a passion for web development.
                       I love figuring out how visually stunning applications work under the hood,
-                      and aim to create equally well-designed, user-centric applications.
+                      and aim to create equally well-designed, user-centric applications using my skills
+                      in Computer Science and my background in Visual Arts.
                       
                     </p>
                   </div>
